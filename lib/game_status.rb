@@ -15,6 +15,11 @@ WIN_COMBINATIONS = [
   [2,5,8]
 ]
 
-def win?(board)
-  puts "Method Exists"
+def won?(board)
+  for each win_combination in WIN_COMBINATIONS
+    win_index_1= win_combination[0]
+    win_index_2 = win_combination[1]
+    win_index_3 = win_combination[2]
+    if board[win_index_3] == board[win_index_2] && board[win_index_2] == board[win_index_1]
+      return win_combination
 end
