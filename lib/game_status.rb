@@ -29,7 +29,5 @@ end
 
 
 def full?(board)
-  board.any? do |spot|
-    spot=="" || spot==" "
-  end
+  board.include?(" ")
 end
