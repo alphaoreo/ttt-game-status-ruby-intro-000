@@ -29,7 +29,7 @@ end
 
 
 def full?(board)
-  board.any do |spot|
+  board.any? do |spot|
     spot=="" || spot==" "
   end
 end
