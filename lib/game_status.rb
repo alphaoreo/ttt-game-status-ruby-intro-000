@@ -12,4 +12,9 @@ WIN_COMBINATIONS = [
   [2,4,6]
   [0,3,6]
   [1,4,7]
-  [2,5,8]]
+  [2,5,8]
+]
+
+def win?(board)
+  puts "Method Exists"
+end
